@@ -24,6 +24,8 @@ website:
     left:
       - text: "Protocols"
         href: protocols/index.qmd
+      - text: "Links"
+        href: links.qmd
     right:
       - icon: github
         href: https://github.com/floesche/drosophila-curriculum
