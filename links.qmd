@@ -5,3 +5,9 @@ title: "External links"
 
 [Pueblo Brain Science](https://www.pueblobrainscience.org/)
 : A program at the University of New Mexico led by Syed "FlyGuy" dedicated to building diversity in neuroscience through undergraduate research training, mentoring, annual neuroscience workshops using fruit flies and 3D-printed tools, science outreach to Pueblo and Navajo communities, and high school engagement across New Mexico.
+
+
+[neuPrint](https://www.neuprint.janelia.org/)
+: Explore connectomics datasets through neuPrint, a powerful platform for querying large-scale neural circuit reconstructions. Key datasets include the optic lobe, mushroom body,  male VNC and hemibrain.
+
+
