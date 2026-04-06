@@ -11,7 +11,7 @@ This website provides supplemental materials for the following manuscript, which
 
 ## About
 
-The _Drosophila_ curriculum bridges developmental neurobiology and connectomics, guiding learners through the principles of how neural circuits are built during development and how their wiring gives rise to behavior. Using the _Drosophila_ larval nervous system as a model, the curriculum provides a scaffolded series of modules that progressively build conceptual understanding — from gene expression and neuronal lineages to synaptic connectivity and circuit function.
+The _Drosophila_ curriculum bridges developmental neurobiology and connectomics, guiding learners through the principles of how neural circuits are built during development and how their wiring gives rise to behavior. Using the _Drosophila_ larval nervous system as a model, the curriculum provides a scaffolded series of modules that progressively build conceptual understanding from gene expression and neuronal lineages to synaptic connectivity and circuit function.
 
 ## How to Use This Site
 
