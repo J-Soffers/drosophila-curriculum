@@ -14,7 +14,7 @@ title: "External links"
 : Do you want to expore more connectomics datasets? Go to FlyWire Academy, whic houses lessons for high school and college teachers, instructors, or scientists doing educational outreach. 
 
 [Virtual Fly Brain](https://virtualflybrain.org/)
-:V irtual Fly Brain (VFB) is an interactive tool for neurobiologists to explore the detailed neuroanatomy, neuron connectivity and gene expression of Drosophila melanogaster. Their goal is to make it easier for researchers to find relevant anatomical information and reagents. They integrate the neuroanatomical and expression data from the published literature, as well as image datasets onto the same brain template, making it possible to run cross searches, find similar neurons and compare image data on their 3D Viewer.
+: Virtual Fly Brain (VFB) is an interactive tool for neurobiologists to explore the detailed neuroanatomy, neuron connectivity and gene expression of Drosophila melanogaster. Their goal is to make it easier for researchers to find relevant anatomical information and reagents. They integrate the neuroanatomical and expression data from the published literature, as well as image datasets onto the same brain template, making it possible to run cross searches, find similar neurons and compare image data on their 3D Viewer.
 
 [natverse](https://natverse.org/)
 : Did these tutorials make you excited? Do you want to dig deeper? The natverse is a collection of interoperable R packages to import, visualise, analyse, manipulate and export 3D neuroanatomical data, including neurons, brains and brain regions. It has been used to study brain and circuit organisation in species from flies to fish and micNeuroanatomical data analysis
