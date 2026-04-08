@@ -2,8 +2,12 @@
 title: "External links"
 ---
 
+## Outreach
+
 [Pueblo Brain Science](https://www.pueblobrainscience.org/)
 : A program at the University of New Mexico led by Syed "FlyGuy" that builds diversity in neuroscience through undergraduate research training, mentoring, and annual workshops using fruit flies and 3D-printed tools. It also provides science outreach to Pueblo and Navajo communities and engages high school students across New Mexico.
+
+## Connectomics
 
 [neuPrint](https://www.neuprint.janelia.org/)
 : A powerful platform for querying large-scale neural circuit reconstructions. Key datasets include the optic lobe, mushroom body, male VNC, and hemibrain, among others.
@@ -16,3 +20,11 @@ title: "External links"
 
 [natverse](https://natverse.org/)
 : The natverse is a collection of interoperable R packages to import, visualise, analyse, manipulate, and export 3D neuroanatomical data, including neurons, brains, and brain regions. It has been used to study brain and circuit organisation in species from flies to fish and mice.
+
+## Working with *Drosophila*
+[*Drosophila* manual](https://marksteinlab.org/dwu/)
+: An excellent laboratory manual for working with *Drosophila* from the Markentein laboratory.
+
+[Food Recipes](https://bdsc.indiana.edu/information/recipes/index.html/)
+: Fly food recipes and preparation instructions from the  Bloomington Drosophila Stock Center.
+
