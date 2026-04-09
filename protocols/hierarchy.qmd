@@ -8,7 +8,281 @@ author:
 ---
 
 
-## Preparation
+## Background 
+
+Animals organize complex behaviors into structured sequences.In this module, you will test whether grooming behavior is organized as a hierarchical sequence and how sensory input and specific neurons can initiate or override this sequence.
+
+When dust stimulates mechanosensory bristles, flies groom in a stereotyped anterior-to-posterior sequence: Head → Abdomen → Wing → Thorax
+These body sweeps are alternated with leg rubbing bouts.
+You will test how sensory stimulation and targeted neural activation influence this hierarchy.
+
+### Experimental Conditions
+
+You will observe flies under two conditions:
+1. Dust stimulation – natural sensory activation (dusting protocol) 
+2. Optogenetic activation – artificial activation of sensory or command neurons with light
+    (1min light OFF → 3 min light ON)
+
+### Behavior Categories
+ H (Head), FL (Front Leg rubbing), BL (Back Leg rubbing), T (Thorax),
+ A (Abdomen), W (Wing), WK (Walking), S (Standing)
+ 
+## Part 1: Behavioral Recording
+
+Use a camera or cellphone to record behavior. Use slow motion (120fps or higher) if available to identify subtle grooming movements and transitions between actions.
+Record ~5 flies per condition. Duration: 3–5 min per fly
+Ensure the entire body is visible. Use consistent lighting and fixed magnification.
+
+### Scoring Technique:
+
+Watch the video and pause every 1 second and record the behavior at that moment.
+If multiple behaviors occur, record the dominant behavior (the one occupying most of that second).
+Data Visualization for Students:
+
+For the timeline Ethogram, use a simple grid where each box represents 1 second of "real" fly time. Here is an example
+
+
+|          | Time (s) | 1  | 2 | 3  | 4 | 5  |
+|----------|----------|----|---|----|---|----|
+| Fly #1   | Behavior | FL | H | FL | H | FL |
+
+
+## Part 2: Behavioral Scoring
+
+At 1-second interval, record the behavior of each fly.
+
+**Categories and action associated:**
+
+| Category            | Abbreviation | Example Action                  |
+|---------------------|-------------|--------------------------------|
+| Head grooming       | H           | Sweeps of head/antennae        |
+| Front leg rubbing   | FL          | Rubbing front legs together    |
+| Abdomen grooming    | A           | Abdomen sweeps                 |
+| Back leg rubbing    | BL          | Rubbing hind legs              |
+| Wing grooming       | W           | Wing sweeps                    |
+| Thorax grooming     | T           | Thorax sweeps                  |
+| Walking             | WK          | Locomotion                     |
+| Standing            | S           | Immobile                       |
+
+
+**Goal: Track order, duration, and repetition of each action.**
+
+
+## Part 2:  Quantitative Analysis
+
+### Step 1: Count Behavior Intervals
++ Count number of intervals per behavior
++ Calculate percent time:
+Percent Time = (Number of intervals for a behavior ÷ Total intervals) × 100
+
+### Step 2: Graphical Representation
++ Bar graph: Percent time spent per behavior
++ Timeline ethogram: Color-coded row per fly showing behavior over time
+Color suggestion for ethogram:
++ Head: Purple | Abdomen: Dark Green | Wings: blue | Thorax: Pink | Front Leg: Orange | Back Leg: light green | Walking: Black | Standing: White
+
+### Step 3: Hierarchy Analysis
+Measure:
++ % of flies starting with head grooming
++ Average duration of each action
++ Latency to first posterior grooming action
++ Number of sequence reversals
++ A:P Ratio (Anterior-to-Posterior) = (Head + Front Leg) ÷ (Abdomen + Wing + Thorax + Back Leg)
+
+
+**After scoring 60 seconds (or your full video), use this box to calculate your totals:**
+
+| Condition                     | Expected A:P Ratio | Biological Meaning                                      |
+|------------------------------|--------------------|----------------------------------------------------------|
+| Dust Only (Control)          | High initially     | Anterior dominance; sensory-driven sequence.              |
+| Command (e.g., Wing) + Dust  | Low                | Command neuron overrides the anterior hierarchy.          |
+
+
+Total Anterior Intervals (H + FL): ______
+Total Posterior Intervals (A + W + T + BL): ______
+A:P Ratio (Line 1 ÷ Line 2): ______
+Percent Time (Head): (Total H ÷ Total Intervals) × 100 = ______%
+
+
+
+### Step 4: Command Neuron Experiments
+These neurons are known to bias or initiate specific grooming actions:
+Measure:
++ Probability of induced action
++ Latency to induced action
++ Whether natural sequence was interrupted
+Example: Does activating leg rubbing command neuron increase leg rubbing above baseline?
+
+
+##Part 4: Procedure Overview
+
+
+### A. Dust-Induced Grooming
+1. Place fly in vial
+2. Add small amount of dust (cornstarch or reactive yellow)
+3. Gently shake/tap 10 times
+4. Record grooming
+
+::: {.callout-note}
+Tip: If it is difficult to transfer flies into the vial containing dust, anesthetize flies briefly on ice by placing vial in the ice box or refrigerator, allow flies to wake up before shaking and dusting
+:::
+
+
+### B. Mechanosensory Bristle Activation
+1. Use flies expressing CsChrimson in bristle neurons
+2. Keep in darkness until recording (keep vials in the cardboard box, for example)
+3. Illuminate with red light (red laser pointer), (even white light will work)
+4. Record grooming and analyze sequence
+
+### C. Command-Like Neuron Activation
+
+
+#### Command neurons
+- aDN / DNg12 → Head grooming  
+- DNg11 → Front leg grooming  
+- wPN → Wing grooming  
+- MagoNote → Thorax grooming  
+- LegPN → Leg rubbing (mostly back leg rubbing, also front leg rubbing)  
+
+### Experiments
+- Activate neurons in clean flies → observe induced behavior  
+- Activate neurons in dusted flies → test hierarchy override  
+
+---
+
+## Part 5: Interpretation Questions
+
+- Does grooming follow an anterior-to-posterior pattern?  
+- Do command neurons initiate specific actions, and can they override the natural grooming sequence?  
+- Which actions dominate under each condition?  
+- What does this suggest about hierarchical suppression?  
+- How do command neurons interact with sensory input to control sequences?  
+
+---
+
+## Part 6: Data Recording Options
+
+| Option | Description            | Tools                            |
+|--------|------------------------|----------------------------------|
+| A      | Manual time sampling   | Excel / Google Sheets            |
+| B      | Frame-based scoring    | Excel with conditional formatting|
+| C      | Pre-coded dataset      | CSV files, MATLAB, R, Python     |
+
+**Tip:**  
+Color-coded ethograms and stacked bar graphs visually convey hierarchy and timing, even without coding.
+
+---
+
+## Sample Data Recording Sheet: “The Snapshot Log”
+
+**Fly ID:** __________  
+**Condition:** (Dust / Opto / Both)  
+**Genotype:** __________  
+
+| Time (sec) | Behavior Code | Anterior (A) | Posterior (P) | Notes |
+|------------|---------------|--------------|---------------|-------|
+| 1          |               |              |               |       |
+| 2          |               |              |               |       |
+| 3          |               |              |               |       |
+| 4          |               |              |               |       |
+
+**Behavior Codes:**  
+H (Head) · FL (Front Leg) · W (Wings) · T (Thorax) · A (Abdomen) · BL (Back Leg) · WK (Walking) · S (Standing)
+
+---
+
+## Module 3 Instructor Guide — Sensory Processing to Sequential Action Control
+
+### Conceptual Framework
+- Sensory-driven activation – mechanosensory input triggers grooming behavior  
+- Command-like neuron activation – specific neural populations bias or initiate motor programs  
+- Hierarchical suppression – competing actions are organized into structured sequences  
+
+Students investigate how these levels interact to produce ordered, flexible grooming behavior in *Drosophila melanogaster*.
+
+---
+
+### Pedagogical Approach
+- Observation – record natural grooming behavior  
+- Quantification – annotate and measure sequences  
+- Manipulation – test causal roles using optogenetics  
+- Interpretation – relate behavior to neural circuits  
+
+---
+
+### Learning Objectives
+- Describe hierarchical organization of motor behavior  
+- Quantify behavioral sequences using time sampling  
+- Compare sensory-driven vs circuit-driven activation  
+- Interpret behavioral data in neural circuit context  
+- Evaluate selection and suppression of competing motor programs  
+
+---
+
+### Suggested Teaching Timeline (2–3 hours)
+
+- 20 min: Introduction & Background  
+- 40 min: Data Collection (Dusting & Optogenetics)  
+- ~60 min: Data Analysis (Scoring & Graphing)  
+- 30 min: Discussion & Interpretation  
+
+---
+
+### Experimental Overview
+
+#### Conditions
+- Dust stimulation – natural mechanosensory activation  
+- Optogenetic activation – artificial activation of neurons  
+
+#### Key Experimental Question
+- How do sensory input and specific neurons influence grooming sequence, timing, and selection?
+
+#### Expected Outcomes
+- Grooming follows an anterior → posterior progression  
+- Head grooming often occurs first  
+- Behavioral sequences are structured, not random  
+
+#### Optogenetic activation can:
+- Induce specific actions in clean flies  
+- Override ongoing grooming sequences  
+- Alter timing and transition probabilities  
+
+Variability across flies is expected and can be used to discuss biological variability and experimental noise.
+
+---
+
+## Data Analysis Options
+
+- **Level 1 (Introductory):** manual sampling, % time, bar graphs  
+- **Level 2 (Intermediate):** frame scoring, ethograms, transition analysis  
+- **Level 3 (Advanced):** MATLAB/Python, transition matrices, automated classification  
+
+Optional statistics:
+- Mann–Whitney U test (between groups)  
+- Paired t-test (within-fly comparisons)  
+
+---
+
+## Common Pitfalls & Troubleshooting
+
+- Weak optogenetic activation → check retinal feeding and light conditions  
+- Scoring inconsistencies → enforce “dominant behavior per second” rule  
+- High variability → expected; use as discussion point  
+
+---
+
+## Key Conceptual Takeaways
+
+- Grooming is hierarchical, not a simple reflex  
+- Sensory input biases but does not fully determine behavior  
+- Command neurons can initiate and dominate actions  
+- Sequences emerge from competition and suppression  
+- Motor control is dynamic and flexible  
+
+
+
+
+##Preparation
 
 Genetic crosses and fly husbandry (\~15 days before the experiment)
 
@@ -73,9 +347,6 @@ Collect **males** from the first-generation progeny (correct genotype) for exper
 | AD-DBD-empty SPLIT | BDSC |  |
 | Canton S | BDSC |  |
 
-### Fly food preparation:
-
-Refer to section \#…
 
 ### Preparing flies for experiment (\~3 days before the experiment)
 
@@ -85,4 +356,4 @@ Control Flies (Wild-Type or Non-Optogenetic): These can be used directly for dus
 
 Experimental Flies (Optogenetic with CsChrimson):
 
-Flies carrying UAS-CsChrimson must be fed on retinal-containing food for 3 days prior to the experiment. Retinal is required to make the Chrimson channel sensitive to light activation. For instructions on preparing retinal food, see Section \#\_\_\_.
+Flies carrying UAS-CsChrimson must be fed on retinal-containing food for 3 days prior to the experiment. Retinal is required to make the Chrimson channel sensitive to light activation. 
