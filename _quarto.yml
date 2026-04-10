@@ -45,7 +45,11 @@ website:
         - text: "Intro to Optogenetics"
           href: protocols/optogenetics.qmd
         - text: "Sensory Processing to Sequential Action Control"
-          href: protocols/hierarchy.qmd
+          contents:
+            - text: Student Version
+              href: protocols/hierarchy_student.qmd
+            - text: Instructor Version
+              href: protocols/hierarchy_instructor.qmd
         - text: "Aggression"
           href: protocols/aggression.qmd
         - text: "Tracing a visual circuit"

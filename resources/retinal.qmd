@@ -34,7 +34,7 @@ All-trans retinal is highly light sensitive. Avoid exposure to strong white ligh
 
 ### Option 1: Pre-made fly media
 
-- Purchase fly media online
+- Purchase fly media online [Archon Scientific](https://www.archonscientific.com/)
 - Supplement with ATR as needed
 - **Clark lab:**
   - Drip ATR onto food surface
@@ -48,15 +48,17 @@ All-trans retinal is highly light sensitive. Avoid exposure to strong white ligh
 
 **Consumables and Equipment:**
 
-- Fly vials can be purchased from:
-  - [Flystuff.com](https://flystuff.com/drosophila-products/vials/)
-  - Amazon (~$12 per case)
-- Use cotton or rayon balls as plugs
-- Kettle on heat plate or turkey oven
+- Please refer to the vendors listed by the Bloomington Drosophila Stock Center for supplies and equipment. [Vendors Fly supplies](https://bdsc.indiana.edu/information/supplies.html).
+    - Genesee Scientific is amongst the most cometitvely priced vendors for fly vials, plugs and food.
+
+- A simple kettle on heat plate or turkey roaster oven (~$75.00) are economic solutions for cookign the fly food. 
+    - [Turkey Roaster Oven](https://tinyurl.com/2zt2zp9u)
+  
 
 **Recommended mix:**
 
-- Nutri-Fly™ Molasses formulation (Genesee Scientific) (Costs < $3.00 per liter)
+- Nutri-Fly™ Molasses formulation Genesee Scientific]() (Costs < $3.00 per liter)
+    - [Nutru-Fly™](https://www.geneseesci.com/product/nutri-fly-bloomington-formulation-pre-mixed-fly-food/?srsltid=AfmBOor7IYFAjLV5lrm_Cydmj536lWIh9ff9YYbLvvVLfIfIvCrOnJii)
 - Or use the recipe below:
 
 
@@ -68,10 +70,11 @@ All-trans retinal is highly light sensitive. Avoid exposure to strong white ligh
 
 ##### Ingredients
 
+
 | Ingredient                       | Amount    |
 |----------------------------------|-----------|
 | Water                            | 1041.5 mL |
-| Yeast (Red Star Active Dry)      | 26.4 g    |
+| Yeast Red Star Active Dry)       | 26.4 g    |
 | Yellow cornmeal                  | 40.8 g    |
 | Agar                             | 9.6 g     |
 | Molasses                         | 64.83 mL  |
@@ -79,6 +82,8 @@ All-trans retinal is highly light sensitive. Avoid exposure to strong white ligh
 | Propionic acid                   | 6.0 mL    |
 | Extra water                      | 141 mL    |
 
+Ingerient vendor: We recommend [Genessee Scientific](https://www.geneseesci.com/applications/drosophila-research/food-fillers/
+) 
 #### Instructions
 
 1. Add ¼ of the water and stir with:

@@ -20,7 +20,7 @@ How does birth order within a neuronal lineage shape circuit membership? Student
 
 How can we test whether a specific set of neurons is sufficient to drive a behavior? This hands-on module introduces the GAL4/UAS system and channelrhodopsin-based optogenetics. Students activate targeted neurons in *Drosophila* larvae with light, quantify evoked behaviors, and compare experimental and control animals.
 
-### [Sensory Processing to Sequential Action Control](hierarchy.qmd)
+### [Sensory Processing to Sequential Action Control](hierarchy_student.qmd)
 
 How do sensory signals get transformed into organized sequences of actions? Students set up genetic crosses, prepare flies for optogenetic or thermogenetic activation, and explore how different driver lines recruit distinct nodes in the sensorimotor hierarchy — from sensory interneurons to descending command-like neurons.
 
