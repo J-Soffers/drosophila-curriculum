@@ -1,0 +1,159 @@
+---
+title: Circuit maturation visualized in the Escape Circuit.
+author:
+  - name: Jelly Soffers
+    email: j.soffers@umkc.edu
+    corresponding: true
+    orcid: 0000-0002-1051-7375
+---
+
+## Part 1: Lineage-Specific Optogenetic Activation in the Drosophila Ventral Nerve Cord
+
+### Overview
+
+Imagine a fruit fly just minutes into adult life, already able to leap away from danger with astonishing speed. This escape jump is not learned—it is hardwired. The neural circuit that powers it is fully formed before the fly even emerges from its pupal case, allowing an immediate and effective response to predators upon eclosion.
+
+::: {#fig-giant-fiber}
+![](assets/module01/gf_a.png)
+Figure: Giant fiber escape circuit in Drosophila.
+:::
+
+The escape circuit is an excellent model for understanding how sensory information such as the visual cue of an approaching predator leads to contraction of the jump muscle, enabling the fly to escape a threat.
+
+In this experiment, students will:
+
+- Optogenetically activate the escape circuit and observe the jump response  
+- Use genetically encoded calcium sensors in fruit fly pupae to visualize how neural activity drives muscle contraction in real time  
+
+These hands-on activities illustrate the core concept of **neuromuscular coupling**.
+
+
+### Learning Outcomes
+
+This experiment transforms textbook concepts into a vivid, engaging experience. Students will not only learn how nervous systems control movement but will *see it happen live* in a real organism.
+
+By the end of this module, students will be able to:
+
+- Explain how neural circuits control muscle contraction, using the Drosophila escape response as an example
+- Describe the process of neuromuscular coupling, including the role of the neuromuscular junction and calcium signaling
+- Identify key components of the escape circuit (e.g., Giant Fibers, motor neurons, jump muscle) and their functions
+- Interpret real-time observations of muscle activity in a living organism
+
+Students will also be able to:
+
+- Operate a fluorescence microscope to visualize biological signals
+- Design and carry out a basic experiment involving live specimens
+- Collect and analyze fluorescence data to assess changes in calcium activity
+- Compare experimental conditions (e.g., developmental stage, temperature) and evaluate their effects on muscle activity
+
+
+
+## Experimental Execution
+
+The *Drosophila* escape response is a well-characterized reflex. When a fly senses danger:
+
+1. Giant Fiber (GF) neurons fire rapidly  
+2. Signals are transmitted from the brain to motor neurons (TTMn) in the thorax  
+3. Motor neurons activate the jump muscle via the neuromuscular junction (NMJ)  
+
+At the NMJ:
+
+- Neurotransmitters are released into the synapse  
+- This triggers calcium release in the muscle cell  
+- Calcium influx causes muscle contraction  
+
+### Visualization Strategy
+
+Students use genetically encoded calcium sensors to observe this process:
+
+- **Part 1:** Optogenetic activation of the GF circuit in adults  
+- **Part 2:** Expression of **GCaMP6f** in the jump muscle  
+
+When calcium levels rise, the muscle fluoresces green—allowing direct visualization of neuronal activity driving muscle contraction at the molecular level.
+
+
+## Part 1: Optogenetic Activation of the GF Circuit in Adults
+
+We refer instructors to this paper, which describes the experimental set-up and classroom execution for optogenetic activation of the jump circuit. 
+
+- [Teaching Optogenetics; Karen Hibbard, Stefan Pulver, David Deitcher, Jim Ryan, Ilya Vilinsky (CrawFly 2024)](https://bdsc.indiana.edu/stocks/teach/teach_optogenetics.html) 
+
+- [Light Activated Escape Circuits: A Behavior and Neurophysiology Lab Module using Drosophila Optogenetics, Pulver (2015)]( https://pmc.ncbi.nlm.nih.gov/articles/PMC4521734/)
+
+
+
+## Part 2: Calcium Release in the Jump Muscle
+
+### Rationale
+
+Generating a genotype that both stimulates the escape circuit and reports calcium activity is technically complex, especially when one tries to imaging calcium spikes in classroom setting with freely moving adults.To address this, we offer a practical alternative: using temperature to stimulate neurotransmission in immobilized, late-stage pupae. At this stage, the jump muscle is large and positioned on the dorso-lateral side of the pupa, allowing its activity to be observed directly through the pupal cuticle. This means that we can observe the muscle "light up" through the pupal cuticle in real time, with no dissection or invasive procedure required.  Because the cuticle is semi-transparent, a basic fluorescent microscope and a high-speed camera are sufficient to capture and study these brief but powerful bursts of activity.
+
+We use JumpMusce Driver-LexA/CyO;LexAop GCaMP6f/ TM3 to visualize calcium spikes in the jump muscle. Contact Jelly Soffers (details above) to obtain a copy of this line. With this line one can visualize calcium activity using a basic fluorescence microscopy in real-time.
+
+
+## Experiment: Imaging Calcium Activity in Developing Pupae
+
+### Preparing the Pupae
+
+- Timing: Seed a couple of vials with stock flies that express the calcium sensor. The generation time of a fly from laying eggs to eclosion is ~10 days at 25 dC. The first pupae emerge 4-5 days after egg laying.  For the experiment, you need to keep track of the age of the pupae to track where they are in the process of metamorphosis. Choose pupae that have just turned into a white puparium. This stage is easily recognised, the animals do not crawl anymore and will not move when you gently poke them with a paintbrush.
+
+- Mounting: Place each white pupa ventral side down (belly down, which is the flat side that sticks to the plastic of the vial) on a strip of double-sided tape that is stuck to a microscope slide. This will hold them in place for viewing. At the day of the experiment you want to have a variety of ages to look at.
+
+- Aging/ Maturation Conditions:  Keep the pupae in a space with humid air and a temperature of 25 °C so they develop normally. A practical way to do this is to keep them in a Petri dish with a wet paper towel in a room with a stable temperature if you don’t have access to a  temperature-controlled incubator. Keep in mind that a lower temperatures slows development  (At 18 °C: ~2× slower development compared to 18 °C)
+
+- Check for GCaMP Expression: After about 30 hours after puparium formation (30 hAPF), check the pupae for GCaMP activity.
+Do this by looking for green fluorescence (GFP signal) in the TDT muscle under a fluorescence microscope.
+
+## Imaging the Pupae
+
+- If a pupa shows GFP in the TDT muscle, set it up for imaging.
+- se an X-Cite XYLIS light source to provide the right wavelength for fluorescence (488 nm).
+- Record the images using a pco.panda 4.2 bi sCMOS camera attached to a Leica MZFLIII fluorescence stereomicroscope.
+- Use a frame rate of two frames per second for recordings up to 4 hours, reduce to 10 FPS to accommodate  recordings up to 12 hours.
+- Reference recordings are attached here (LINK FILES).
+
+
+
+## Experimental Variables
+
+Students can investigate:
+
+- **Developmental stage:**
+  - Young (45 hAPF) vs old (85 hAPF)  
+
+- **Temperature effects:** 
+  - Evaluate the effect of temperature on neurotransmission and muscle activity. Keep the microscopy slide 30’ on ice, then remove place on top of a hotter substrate (e.g. Handwarmer hot-pack). How does the sudden temperature shift affect the firing rate at the NMJ?
+
+
+
+*Insert figure + explanation of expected effects*
+
+
+## Data Processing
+
+### Basic Analysis
+
+- Have have students scroll through their own or the reference videos provided, using any movie player. Let the students take notes of the observations and discuss these together.
+
+*Insert reference videos*
+
+
+### Advanced Analysis
+
+- When embedded in a curriculum, students can use our pipleine to analize the data. Students will need the open-source  image analysis software Fiji (ImageJ) (link to download) to measure and analyse the fluorescence intensity in the ROI. Here is an excellent tutorial on how to do this with your videos (LINK TO TURORIAL), select a region of interest (ROI) around the TDT muscle  this is the area you will measure.
+-They then use R studio/ Google co-labs to normalzie the calcium signal with a rolling-window normalization mode, and create waterfall plots to compare the aplitude, frequency and left-right differences of the jump muscle calcium signal.
+
+ADD tutorial + R package + scripts
+
+
+
+## Suggested Teaching Script
+
+- Teacher PPT for concept discussion  
+- Review:
+  - Neuromuscular coupling  
+  - Experimental design  
+  - Data interpretation  
+
+
+

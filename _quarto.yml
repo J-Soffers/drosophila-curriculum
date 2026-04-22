@@ -59,7 +59,8 @@ website:
             href: protocols/hierarchy_student.qmd
           - text: Instructor Version
             href: protocols/hierarchy_instructor.qmd
-
+      - text: "Circuit Maturation with Live Calcium Imaging"
+        href: protocols/calcium.qmd
       - text: "Aggression"
         href: protocols/aggression.qmd
       - text: "Tracing a visual circuit"
