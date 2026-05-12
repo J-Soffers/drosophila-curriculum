@@ -19,7 +19,7 @@ filters:
 
 website:
   title: "_Drosophila_ Curriculum"
-  site-url: https://floesche.github.io/drosophila-curriculum
+  site-url: https://pueblo-brain-science.github.io/drosophila-curriculum/
   navbar:
     left:
       - text: "Protocols"
@@ -30,7 +30,7 @@ website:
         href: links.qmd
     right:
       - icon: github
-        href: https://github.com/floesche/drosophila-curriculum
+        href: https://github.com/Pueblo-Brain-Science/drosophila-curriculum
   sidebar:
     - title: "Protocols"
       contents:
