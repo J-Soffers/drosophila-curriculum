@@ -69,12 +69,12 @@ website:
         - text: "Sleep"
           href: protocols/sleep.qmd
 
-    - title: "Students"  
+    - title: "Students"
       contents:
         - text: Students
           href: students/index.qmd
         - text: "Developmental Logic as Circuit Blueprint"
-          href: protocols/hemilineage_student.qm
+          href: protocols/hemilineage_student.qmd
         - text: "Sensory Processing to Sequential Action Control"
           href: protocols/hierarchy_student.qmd
 
@@ -105,8 +105,7 @@ website:
         - text: "Sleep"
           href: protocols/sleep.qmd
 
-
-    - title: "Resources"  
+    - title: "Resources"
       contents:
         - text: Resources
           href: resources/index.qmd
