@@ -12,7 +12,7 @@ author:
 
 The goal of this lab is to understand how neural lineages help to build functional circuitry. Though the function of some of these neurons isn’t completely understood, having a connectivity map can help us generate hypotheses about circuit function and also learn about the developmental origins of these circuits
 
-With a stable internet connection open [CATMAID](http://tinyurl.com/larval-cns) to access the L1 brain. For how-to movies see the [first part of this module](catmaid.qmd).
+With a stable internet connection open [CATMAID](http://tinyurl.com/larval-cns) to access the L1 brain. For how-to movies see the [first part of this module](catmaid01.qmd).
 
 ### Pick a lineage:
 

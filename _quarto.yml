@@ -26,8 +26,10 @@ website:
         href: protocols/index.qmd
       - text: "Resources"
         href: resources/index.qmd
-      - text: "Links"
-        href: links.qmd
+      - text: "Students"
+        href: students/index.qmd
+      - text: "Instructors"
+        href: instructors/index.qmd
     right:
       - icon: github
         href: https://github.com/Pueblo-Brain-Science/drosophila-curriculum
@@ -36,31 +38,74 @@ website:
       contents:
         - text: Protocols
           href: protocols/index.qmd
+
+        - text: "Larval Command Neurons and Circuit Persistence"
+          href: protocols/catmaid01.qmd
+        - text: "Exploring lineages in the larval VNC"
+          href: protocols/catmaid02.qmd
+        - text: "Intro to Optogenetics"
+          href: protocols/optogenetics.qmd
+
         - text: "Developmental Logic as Circuit Blueprint"
           contents:
             - text: Student Version
               href: protocols/hemilineage_student.qmd
             - text: Instructor Version
               href: protocols/hemilineage.qmd
-        - text: "Exploring Descending Neurons within the Brain"
-          href: protocols/catmaid01.qmd
-        - text: "Exploring lineages in the larval VNC"
-          href: protocols/catmaid02.qmd
-        - text: "Intro to Optogenetics"
-          href: protocols/optogenetics.qmd
+
         - text: "Sensory Processing to Sequential Action Control"
           contents:
             - text: Student Version
               href: protocols/hierarchy_student.qmd
             - text: Instructor Version
               href: protocols/hierarchy_instructor.qmd
-        - text: "Aggression"
-          href: protocols/aggression.qmd
+
         - text: "Tracing a visual circuit"
           href: protocols/celltype-explorer.qmd
+
+        - text: "Aggression"
+          href: protocols/aggression.qmd
+
         - text: "Sleep"
           href: protocols/sleep.qmd
-    - title: "Resources"  
+
+    - title: "Students"
+      contents:
+        - text: Students
+          href: students/index.qmd
+        - text: "Developmental Logic as Circuit Blueprint"
+          href: protocols/hemilineage_student.qmd
+        - text: "Sensory Processing to Sequential Action Control"
+          href: protocols/hierarchy_student.qmd
+
+    - title: "Instructors"
+      contents:
+        - text: Instructors
+          href: instructors/index.qmd
+
+        - text: "Larval Command Neurons and Circuit Persistence"
+          href: protocols/catmaid01.qmd
+        - text: "Exploring lineages in the larval VNC"
+          href: protocols/catmaid02.qmd
+        - text: "Intro to Optogenetics"
+          href: protocols/optogenetics.qmd
+
+        - text: "Developmental Logic as Circuit Blueprint"
+          href: protocols/hemilineage.qmd
+
+        - text: "Sensory Processing to Sequential Action Control"
+          href: protocols/hierarchy_instructor.qmd
+
+        - text: "Tracing a visual circuit"
+          href: protocols/celltype-explorer.qmd
+
+        - text: "Aggression"
+          href: protocols/aggression.qmd
+
+        - text: "Sleep"
+          href: protocols/sleep.qmd
+
+    - title: "Resources"
       contents:
         - text: Resources
           href: resources/index.qmd

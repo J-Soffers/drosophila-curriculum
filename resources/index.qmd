@@ -4,7 +4,38 @@ title: Resources
 
 At this page you find generic protocols to aid in the classroom execution of the module protocols. 
 
-### [Preparing Retinal food](retinal.qmd)
+# Generic Protocols
 
-Protocol detailing how to prepare fly food that contains all-trans retinal. 
+[*Drosophila* manual](https://marksteinlab.org/dwu/)
+: An excellent laboratory manual for working with *Drosophila* from the Markentein laboratory.
+
+[Food Recipes](https://bdsc.indiana.edu/information/recipes/index.html/)
+: Fly food recipes and preparation instructions from the  Bloomington Drosophila Stock Center.
+
+[Preparing Retinal food](retinal.qmd)
+:Protocol detailing how to prepare fly food that contains all-trans retinal. 
+
+
+# External links
+
+## Outreach
+
+[Pueblo Brain Science](https://www.pueblobrainscience.org/)
+: A program at the University of New Mexico led by Syed "FlyGuy" that builds diversity in neuroscience through undergraduate research training, mentoring, and annual workshops using fruit flies and 3D-printed tools. It also provides science outreach to Pueblo and Navajo communities and engages high school students across New Mexico.
+
+## Connectomics
+
+[neuPrint](https://www.neuprint.janelia.org/)
+: A powerful platform for querying large-scale neural circuit reconstructions. Key datasets include the optic lobe, mushroom body, male VNC, and hemibrain, among others.
+
+[FlyWire Academy](https://codex.flywire.ai/academy_home/)
+: FlyWire Academy provides connectomics lessons designed for educators and scientists doing outreach at the high school and college level.
+
+[Virtual Fly Brain](https://virtualflybrain.org/)
+: Virtual Fly Brain (VFB) is an interactive tool for exploring the neuroanatomy, connectivity, and gene expression of *Drosophila melanogaster*. It integrates published neuroanatomical data and image datasets onto a common brain template, enabling cross-searches and 3D comparison of neurons.
+
+[natverse](https://natverse.org/)
+: The natverse is a collection of interoperable R packages to import, visualise, analyse, manipulate, and export 3D neuroanatomical data, including neurons, brains, and brain regions. It has been used to study brain and circuit organisation in species from flies to fish and mice.
+
+
 
