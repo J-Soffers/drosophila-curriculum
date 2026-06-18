@@ -20,6 +20,18 @@ How can we test whether a specific set of neurons is sufficient to drive a behav
 
 How do developmental building blocks give rise to functional neural circuits? In this module, students optogenetically activate hemilineage-defined neuronal populations in the *Drosophila* larval ventral nerve cord and test whether developmental origin predicts behavioral output. A companion connectomics session links the observed behaviors to circuit architecture using Neuroglancer.
 
+**Additional student links**
+
+- [Optogenetic activation of building blocks of the brain](../protocols/hemilineage_student_opto.qmd)
+
+- [Connectomcis Analysis of Hemilineage input in the Escape Circuit](../protocols/hemilineage_student_EM.qmd)
+
 ### [Sensory Processing to Sequential Action Control](../protocols/hierarchy_student.qmd)
 
 How do sensory signals get transformed into organized sequences of actions? Students set up genetic crosses, prepare flies for optogenetic or thermogenetic activation, and explore how different driver lines recruit distinct nodes in the sensorimotor hierarchy — from sensory interneurons to descending command-like neurons.
+
+### [Social Interactions and Agrgression in Drosophila](../protocols/aggression_student.qmd)
+
+**Additional student links**
+
+- [behaviorscoreR](../protocols/aggression_behaviorscoreR.qmd)

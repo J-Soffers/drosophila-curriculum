@@ -39,31 +39,35 @@ website:
         - text: Protocols
           href: protocols/index.qmd
 
-        - text: "Larval Command Neurons and Circuit Persistence"
-          href: protocols/catmaid01.qmd
-        - text: "Exploring lineages in the larval VNC"
-          href: protocols/catmaid02.qmd
-        - text: "Intro to Optogenetics"
-          href: protocols/optogenetics.qmd
-
-        - text: "Developmental Logic as Circuit Blueprint"
+        - text: "M1-Larval Command Neurons and Circuit Persistence"
           contents:
-            - text: Student Version
-              href: protocols/hemilineage_student.qmd
+            - text: Larval Command Neurons and Circuit Persistence
+              href: protocols/catmaid01.qmd
+            - text: Exploring lineages in the larval VNC
+              href: protocols/catmaid02.qmd
+            - text: Intro to Optogenetics
+              href: protocols/optogenetics.qmd
+
+        - text: "M2-Developmental Logic as Circuit Blueprint"
+          contents:
+            - text: Student Version Part I
+              href: protocols/hemilineage_student_opto.qmd
+            - text: Student Version Part II
+              href: protocols/hemilineage_student_EM.qmd
             - text: Instructor Version
               href: protocols/hemilineage.qmd
 
-        - text: "Sensory Processing to Sequential Action Control"
+        - text: "M3-Sensory Processing to Sequential Action Control"
           contents:
             - text: Student Version
               href: protocols/hierarchy_student.qmd
             - text: Instructor Version
               href: protocols/hierarchy_instructor.qmd
 
-        - text: "Tracing a visual circuit"
+        - text: "M4/5 Tracing a visual circuit"
           href: protocols/celltype-explorer.qmd
 
-        - text: "Social Interactions and Aggressive Behaviors"
+        - text: "M6-Social Interactions and Aggressive Behaviors"
           contents:
             - text: Student Version
               href: protocols/aggression_student.qmd
@@ -72,17 +76,38 @@ website:
             - text: BehaviorscoreR
               href: protocols/aggression_behaviorscoreR.qmd
 
-        - text: "Sleep"
+        - text: "M7-The Sleeping Fly"
           href: protocols/sleep.qmd
 
     - title: "Students"
       contents:
         - text: Students
           href: students/index.qmd
-        - text: "Developmental Logic as Circuit Blueprint"
-          href: protocols/hemilineage_student.qmd
-        - text: "Sensory Processing to Sequential Action Control"
+        - text: "M1-Larval Command Neurons and Circuit Persistence"
+          href: protocols/catmaid01.qmd
+        - text: "M1-Exploring lineages in the larval VNC"
+          href: protocols/catmaid02.qmd
+        - text: "M1-Intro to Optogenetics"
+          href: protocols/optogenetics.qmd
+          
+        - text: "M2-Developmental Logic as Circuit Blueprint-I"
+          href: protocols/hemilineage_student_opto.qmd
+        - text: "M2-Developmental Logic as Circuit Blueprint-II"
+          href: protocols/hemilineage_student_EM.qmd
+          
+        - text: "M3-Sensory Processing to Sequential Action Control"
           href: protocols/hierarchy_student.qmd
+          
+        - text: "M4/5 Tracing a visual circuit"
+          href: protocols/celltype-explorer.qmd
+          
+        - text: "M6-Social Interactions and Aggressive Behaviors"
+          href: protocols/aggression_student.qmd
+        - text: "BehaviorscoreR"
+          href: protocols/aggression_behaviorscoreR.qmd
+          
+        - text: "M7-The Sleeping Fly"
+          href: protocols/sleep_student.qmd
 
     - title: "Instructors"
       contents:
@@ -105,11 +130,13 @@ website:
         - text: "Tracing a visual circuit"
           href: protocols/celltype-explorer.qmd
 
-        - text: "Aggression"
-          href: protocols/aggression.qmd
-
-        - text: "Sleep"
-          href: protocols/sleep.qmd
+        - text: "Social Interactions and Aggressive Behavior in Drosophila"
+          href: protocols/aggression_instructor.qmd
+        - text: "BehaviorscoreR"
+          href: protocols/aggression_behaviorscoreR.qmd
+          
+        - text: "The Sleeping Fly"
+          href: protocols/sleep_instructor.qmd
 
     - title: "Resources"
       contents:

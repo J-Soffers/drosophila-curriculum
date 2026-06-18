@@ -1,0 +1,157 @@
+---
+title: Developmental Logic as Circuit Blueprint.
+author:
+  - name: Jelly Soffers
+    email: j.soffers@umkc.edu
+    corresponding: true
+    orcid: 0000-0002-1051-7375
+---
+
+## Part 1: Lineage-Specific Optogenetic Activation in the Drosophila Ventral Nerve Cord
+
+### Overview
+
+How does the nervous system build circuits that produce specific behaviors?
+
+In this module, you will investigate whether groups of neurons that develop together also work together to control behavior.
+
+In the fruit fly (*Drosophila*), neurons are produced in developmental families called **lineages**. Each lineage typically divides into two groups called **hemilineages**. Neurons within a hemilineage often share similar shapes, connections, and roles in the nervous system.
+
+Scientists think that these hemilineages may act as building blocks for neural circuits. If this idea is correct, then activating different hemilineages should produce different and predictable behaviors.
+
+To test this hypothesis, you will use **optogenetics**—a technique that allows neurons to be activated with light. By stimulating specific neuronal populations in the ventral nerve cord (VNC), you will observe how flies respond and determine whether developmental identity can predict behavioral output.
+
+In the figure below you can see how the neuronal cell bodies and axonal projects cover different regions in the fly's spinal cord. THe neurons that light up i ngreen are the same neurosn as you will be activating in real life!
+
+:::{#fig-lines layout-ncol="1"}
+
+![](assets/module01/lines_a.png){#fig-lines-a}
+
+![](assets/module01/lines_b.png){#fig-lines-b}
+
+GAL4 lines
+:::
+
+In the video's below you see our video recordigns of these and some more hemilineages. Click on the links and pay attention to the differences. 
+
+::::{#fig-behavior layout-ncol="3"}
+
+:::{#fig-behavior-a}
+{{< video assets/module01/Video-5B-1.mp4>}}
+
+Line 5B, example 1
+:::
+
+:::{#fig-behavior-b}
+{{< video assets/module01/Video-5B-2.mp4 >}}
+
+Line 5B, example 2
+:::
+
+:::{#fig-behavior-c}
+{{< video assets/module01/Video-5B-3.mp4 >}}
+
+Line 5B, example 3
+:::
+
+:::{#fig-behavior-d}
+{{< video assets/module01/Video-5B-4.mp4 >}}
+
+Line 5B, example 4
+:::
+
+:::{#fig-behavior-e}
+{{< video assets/module01/Video-14A-1.mp4 >}}
+
+Line 14A, example 1
+:::
+
+:::{#fig-behavior-f}
+{{< video assets/module01/Video-14A-2.mp4 >}}
+
+Line 14A, example 2
+:::
+
+:::{#fig-behavior-g}
+{{< video assets/module01/Video-17A-1.mp4 >}}
+
+Line 17A, example 1
+:::
+
+:::{#fig-behavior-h}
+{{< video assets/module01/Video-17A-2.mp4 >}}
+
+Line 17A, example 2
+:::
+Behavior
+::::
+
+Now it is time to investigate the flies in front of you.
+
+### Step 1: Observe
+
+Before applying light stimulation:
+
+- Observe the flies for 1–2 minutes.
+- Record their normal behavior.
+- Discuss with your group what behaviors you might expect if specific neural circuits were activated.
+
+### Step 2: Activate the Circuit
+
+Using the light source provided:
+
+1. Illuminate the flies.
+2. Observe the behavioral response.
+3. Repeat the stimulation several times.
+4. Record whether the response is consistent across trials.
+
+### Step 3: Describe What You See
+
+Focus on observations rather than interpretations.
+
+Examples could be
+
+- Walking forward
+- Full leg stretching
+- Backward movement
+- Turning
+- Wing buzzing
+- Jumping
+- Wing extension
+- Freezing
+- Grooming-like movements
+
+Record your observations in a table similar to the one below.
+
+| Trial | Observed Behavior | Consistent? | Notes |
+|---------|---------|---------|---------|
+| 1 | | | |
+| 2 | | | |
+| 3 | | | |
+
+### Step 4: Compare Results
+
+Share your observations with other groups.
+
+Look for patterns:
+
+- Which fly lines produced similar behaviors?
+- Which produced distinct behaviors?
+- Were some responses stronger or more reliable than others?
+
+### Think Like a Neuroscientist
+
+If activating a particular neuronal population repeatedly produces the same behavior:
+
+- What does this suggest about its role in the nervous system?
+- What can behavior tell us about circuit organization?
+- What information cannot be determined from activation experiments alone?
+
+### Discussion Questions
+
+1. Did different fly lines produce distinct behaviors?
+2. Were the behaviors reproducible?
+3. Which behaviors appeared to involve simple motor outputs versus more complex action sequences?
+4. What evidence supports the idea that developmental identity influences neural function?
+5. What additional experiments would be needed to determine whether these neurons are necessary for a behavior, rather than simply capable of producing it when activated?
+

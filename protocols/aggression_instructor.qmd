@@ -27,7 +27,7 @@ author:
 
 ### Equipment:
 
-- 3D printed fighting chamber
+- [3D printed fighting chamber](../protocols/assets/aggression/fighting_chamber.stl)
   - *For best results the chambers should be printed with ABS material at 100-micron thickness.*
 - Dividers
   - *For best results X-ray films should be cut with Silhouette printer for accuracy of dimensions.*
@@ -70,19 +70,3 @@ Newly eclosed flies (less than a day old) should be anesthetized on CO2 or ice. 
 - Once the flies have reached appropriate age to carry out experiments (5 days) the chamber assembly should be placed under the camera view and on top of LED lightsource for acquisition of high contrast aggression movies.
 - The dividers should be gently removed by pulling them out in a linear motion while not disrupting the isolated flies.
 - The Basler video acquisition software should be run to acquire movie file of the 12 well chamber for the duration of assay (we recommend recording at 20 Hz, and for assay duration of 20 minutes).
-
-### How to Design behavioral Classifiers for JAWA and Fly Tracker 
-
-1. The first step in designing a classifier is ascertaining if the behavior is discrete (Lunging), or continuous (boxing). The output of automated action-classifying algorithms (like JAABA) should return results that match conventional behavioral scoring (manual quantification).
-    - **Critical Step** Discrete behavior classifiers can start off by labeling multiple frames, but rigorous subsequent training should be done till classified frames are a match with manual scoring. For classifiers that labels 5 or more frames when only one should be picked, it might be prudent to start over.
-2. The framerate of the movie that records behavior should be decided a priori. It will also depend on behaviors of interest, contrast and resolution of camera, and how many pixels constitute a single animal of interest. For Lunging, a high-resolution movie should be at least 20 fps, and a regular handheld camera 25 and above. For regular cameras we recommend the chambers are bottom lit to increase contrast.
-    - **Critical Step** Once a classifier is fully trained, there is some leeway with differing frame rates, but every time a movie in a new recording setup is classified, manual scoring and classified movie should be matched for accuracy, before engaging in large scale annotation. Generally, a properly trained classifier requires only minor tweaks and re-training in a new setup.
-3. The first step in any automated annotation is picking a tracking algorithm that tracks flies and generates perframe features that can be imported into JAABA. Proper tracking depends on the contrast of animals on a well-lit background and a movie that is devoid of any camera shakes. A Proper tracker also should make little mis-categorization of fly Identities. We recommend FlyTracker 1.05.
-4. When training behavioral classifiers for discrete behaviors, the sequence of actions that constitutes a behavior should be kept in mind and the most salient feature should be trained. For instance, aggression constitutes a series of steps that culminate in the hallmark action of a Lunge (orientation, head-on or perpendicular alignment, rearing up on hind legs, and snapping down with front legs). In our movies, the rearing up, as well as the snap constitutes a single frame – both of which are amenable for training a lunge classifier (one frame – one count). However, the rearing up can also be seen when a fly moves from the floor to the side. This left the snap as the action pattern of choice and the lunge classifier is trained to identify this single frame snap.
-    - **Critical Step** When using the lunge classifier with regular handycam acquired movies, a slowed down version should be first checked where the snap doesn’t lose pixel integrity. If a freeze frame of a lunge looks like the fly pixels has broken into multiple component pieces, the single frame pre-lunge rearing up should be classified. By changing the chamber design where the arena edges are at an angle (like the flyBowl Assay for instance), misclassifications of crawling up on the side can be reduced.
-5. We recommend using at least 300+ instances of lunging frames to train a classifier, along with negative frames. 300 single lunges will for instance give 200 instances of hits, at least 500 \-1000 instances of no-lunge frames should be included in the training. In our experience a single lunge-frame bookended by multiple frames of no-lunge classifications returns the fastest results.
-6. Ground-truthing helps increase the efficiency of classifiers. But in our opinion a meticulous step of quantifying multiple aggression movies manually, and then comparing them with results returned by automated annotation should be performed. This solves multiple problems:
-    a. If the classifier is labeling multiple frames as a single lunge, the average difference between manual scoring, and classified movie will be readily apparent (if two frames are being labeled as a lunge, the automated classification will return double the number of lunges as manually scored\!)
-    b. A subsequent frame by frame analysis will clear up which behaviors are getting mislabeled, making it easier to train them out.
-    c. Setting post processing filters will help retain correct IDs while removing unwanted ones, making the total count get as close to the gold standard of manual scoring as one wants.
-

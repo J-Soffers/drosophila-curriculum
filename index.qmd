@@ -15,4 +15,4 @@ The _Drosophila_ curriculum bridges developmental neurobiology and connectomics,
 
 ## How to Use This Site
 
-Use the [**Protocols**](protocols/index.qmd) menu to navigate the individual curriculum modules. Each module contains detailed protocols, guiding questions, and references to primary literature and connectomics resources. The modules are designed to be followed in sequence, but can also be used independently depending on the learner's background.
+Use the [**Protocols**](protocols/index.qmd) menu to navigate the individual curriculum modules. Each module contains detailed protocols, guiding questions, and references to primary literature and connectomics resources. The modules are designed to be followed in sequence, but can also be used independently depending on the learner's background. Instructors can use [**Instructors**](instructors/index.qmd) to retrieve detailed preparation and execution instructions. Students can navigate to [**Students**](students/index.qmd) for guided tutorials for each module.

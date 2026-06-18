@@ -1,33 +1,36 @@
 ---
-title: Protocols
+title: Module Protocols
 ---
 
 The curriculum is organized into six modules that progressively build from developmental neurobiology and optogenetics to connectomics and complex behavior. Each module includes detailed protocols, guiding questions, and references to primary literature.
 
-### [Developmental Logic as Circuit Blueprint](hemilineage.qmd)
-
-How do developmental building blocks give rise to functional neural circuits? In this module, students optogenetically activate hemilineage-defined neuronal populations in the *Drosophila* larval ventral nerve cord and test whether developmental origin predicts behavioral output. A companion connectomics session links the observed behaviors to circuit architecture using Neuroglancer.
-
-### [Exploring Descending Neurons within the Brain](catmaid01.qmd)
+### [Module 1 - Exploring Descending Neurons within the Brain](catmaid01.qmd)
 
 What can the morphology and connectivity of individual neurons tell us about their function? Students use CATMAID to navigate the first-instar larval connectome, visualize descending neurons, map their synaptic partners, and generate hypotheses about how brain commands reach the motor system.
 
-### [Exploring Lineages in the Larval VNC](catmaid02.qmd)
+### [Module 1 - Exploring Lineages in the Larval VNC](catmaid02.qmd)
 
 How does birth order within a neuronal lineage shape circuit membership? Students pick a neuroblast lineage, trace its progeny in CATMAID, and investigate whether early-born and late-born neurons differ in their morphology, connectivity, and potential roles in sensory versus motor processing.
 
-### [Intro to Optogenetics](optogenetics.qmd)
+### [Module 1 - Intro to Optogenetics](optogenetics.qmd)
 
 How can we test whether a specific set of neurons is sufficient to drive a behavior? This hands-on module introduces the GAL4/UAS system and channelrhodopsin-based optogenetics. Students activate targeted neurons in *Drosophila* larvae with light, quantify evoked behaviors, and compare experimental and control animals.
 
-### [Sensory Processing to Sequential Action Control](hierarchy_student.qmd)
+### [Module 2 - Developmental Logic as Circuit Blueprint](hemilineage.qmd)
+
+How do developmental building blocks give rise to functional neural circuits? In this module, students optogenetically activate hemilineage-defined neuronal populations in the *Drosophila* larval ventral nerve cord and test whether developmental origin predicts behavioral output. A companion connectomics sessiondata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAkCAYAAAD7PHgWAAABBklEQVR4Xu2XMQrCQBBFBQvR6wgJHsEDpHVjBDvvoBhbI3bWCkZbFUyhFrYiEat0WgmC6AVkdQqbIVmWZAOi82C64b+/bDWZDEEQP4phTLMaa9d003bTGMgu1psF7JVGNzuWPdzs18GDz443rgrIcndXbvW8g1axGfZKo7P2eBXc+WB74a3FGXtiA1kwzfnpqTF7hL3SwDfAaz+BqvjkwYADe6WhglQwJlQwKVQwKakVTGOoYNL5z4JxwBlUMEwqAu9SwTCpCLxLBcOkIvCusoKT9/WFQ6OkIvCukoJwt5rO0sehUVIReBem6ng+OLBXmnKjn4PbGM5PeKnqgXIlo5vHXoL4Nl4ZYqbbEGA7+wAAAABJRU5ErkJggg== links the observed behaviors to circuit architecture using Neuroglancer.
+
+### [Module 3 - Sensory Processing to Sequential Action Control](hierarchy_student.qmd)
 
 How do sensory signals get transformed into organized sequences of actions? Students set up genetic crosses, prepare flies for optogenetic or thermogenetic activation, and explore how different driver lines recruit distinct nodes in the sensorimotor hierarchy — from sensory interneurons to descending command-like neurons.
 
-### [Social Interactions and Aggression in *Drosophila melanogaster*](aggression.qmd)
+### [Module 4/5 - Tracing a Visual Circuit](celltype-explorer.qmd)
+Use the latest software and follow this guided tour to trace the visual circuit. Then, you will use a sophisticated engineering set-up to tether a fly ontop of a miniscule ball to analyze it's movements.
+
+### [Module 6 - Social Interactions and Aggression in *Drosophila melanogaster*](aggression.qmd)
 
 How can complex social behaviors be quantified and dissected? Students build fighting chambers, record aggression assays between male flies, and learn to design automated behavioral classifiers using tools like JAABA and FlyTracker and the custom behaviorscoreR and bridge circuit manipulation with rigorous behavioral analysis.
 
-### [Sleep in *Drosophila melanogaster*](sleep.qmd)
+### [Module 7 - Sleep in *Drosophila melanogaster*](sleep.qmd)
 
 How can internal states like sleep be measured and manipulated? Students monitor activity and rest patterns, analyze sleep metrics such as bout length and latency, and explore how neural circuits and environmental cues regulate sleep. Students learn to link behavior to underlying physiological and circuit mechanisms.
