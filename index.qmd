@@ -1,13 +1,13 @@
 ---
 title: "Supplemental Materials"
-subtitle: "From Development to Connectomics: A Scaffolded _Drosophila_ Curriculum for Understanding Brain Wiring and Behavior"
+subtitle: "From Development to Behavior via Connectomics: A Scaffolded _Drosophila_ Curriculum for Understanding Brain Wiring and Behavior"
 ---
 
 This website provides supplemental materials for the following manuscript, which is currently being drafted and not yet available:
 
-> **From Development to Connectomics: A Scaffolded _Drosophila_ Curriculum for Understanding Brain Wiring and Behavior**
+> **From Development to Behavior via Connectomics: A Scaffolded _Drosophila_ Curriculum for Understanding Brain Wiring and Behavior**
 >
-> Jelly Hubertus Maria Soffers, Matthew Clark, Durafshan Sakeena Syed, Frank Loesche, Abhilash Lakshman, Budhaditya Chowdhury, & Syed Mubarak Hussain
+> Jelly Hubertus Maria Soffers, Matthew Clark, Durafshan Sakeena Syed, Frank Loesche, Abhilash Lakshman, Budhaditya Chowdhury & Syed Mubarak Hussain
 
 ## About
 

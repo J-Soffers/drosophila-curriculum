@@ -17,6 +17,12 @@ At this page you find generic protocols to aid in the classroom execution of the
 
 
 # External links
+## ShinyApps used in this curriculum
+[behaviorscoreR](link to PBS.org depository)
+: Analysis software for aggression behavior [(module 6)](../protocols/aggression_behaviorscoreR).
+
+[phaseR](link to PBS.org depository)
+: Analysis software for deep sleep patterns [(Module 7)](../protocols/sleep_phaseR).
 
 ## Outreach
 

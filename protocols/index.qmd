@@ -18,7 +18,7 @@ How can we test whether a specific set of neurons is sufficient to drive a behav
 
 ### [Module 2 - Developmental Logic as Circuit Blueprint](hemilineage.qmd)
 
-How do developmental building blocks give rise to functional neural circuits? In this module, students optogenetically activate hemilineage-defined neuronal populations in the *Drosophila* larval ventral nerve cord and test whether developmental origin predicts behavioral output. A companion connectomics sessiondata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAkCAYAAAD7PHgWAAABBklEQVR4Xu2XMQrCQBBFBQvR6wgJHsEDpHVjBDvvoBhbI3bWCkZbFUyhFrYiEat0WgmC6AVkdQqbIVmWZAOi82C64b+/bDWZDEEQP4phTLMaa9d003bTGMgu1psF7JVGNzuWPdzs18GDz443rgrIcndXbvW8g1axGfZKo7P2eBXc+WB74a3FGXtiA1kwzfnpqTF7hL3SwDfAaz+BqvjkwYADe6WhglQwJlQwKVQwKakVTGOoYNL5z4JxwBlUMEwqAu9SwTCpCLxLBcOkIvCusoKT9/WFQ6OkIvCukoJwt5rO0sehUVIReBem6ng+OLBXmnKjn4PbGM5PeKnqgXIlo5vHXoL4Nl4ZYqbbEGA7+wAAAABJRU5ErkJggg== links the observed behaviors to circuit architecture using Neuroglancer.
+How do developmental building blocks give rise to functional neural circuits? In this module, students optogenetically activate hemilineage-defined neuronal populations in the *Drosophila* larval ventral nerve cord and test whether developmental origin predicts behavioral output. A companion connectomics Neuroglancer session links hemilineages to circuit architecture.
 
 ### [Module 3 - Sensory Processing to Sequential Action Control](hierarchy_student.qmd)
 
