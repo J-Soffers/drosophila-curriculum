@@ -12,7 +12,7 @@ At this page you find generic protocols to aid in the classroom execution of the
 [Food Recipes](https://bdsc.indiana.edu/information/recipes/index.html/)
 : Fly food recipes and preparation instructions from the  Bloomington Drosophila Stock Center.
 
-[Preparing Retinal food](retinal.qmd)
+[Retinal food](retinal.qmd)
 : Protocol detailing how to prepare fly food that contains all-trans retinal.
 
 
@@ -21,7 +21,7 @@ At this page you find generic protocols to aid in the classroom execution of the
 [behaviorscoreR](link to PBS.org depository)
 : Analysis software for aggression behavior [(module 6)](../protocols/aggression_behaviorscoreR).
 
-[phaseR](link to PBS.org depository)
+[phaseR](https://github.com/abhilashlakshman/phaseR)
 : Analysis software for deep sleep patterns [(Module 7)](../protocols/sleep_phaseR).
 
 ## Outreach

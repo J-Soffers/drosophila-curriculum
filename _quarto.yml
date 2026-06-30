@@ -77,8 +77,12 @@ website:
               href: protocols/aggression_behaviorscoreR.qmd
 
         - text: "M7-The Sleeping Fly"
-          href: protocols/sleep.qmd
-
+          contents:
+            - text: Student Version
+              href: protocols/sleep_student.qmd
+            - text: Instructor Version
+              href: protocols/sleep_instructor.qmd
+          
     - title: "Students"
       contents:
         - text: Students

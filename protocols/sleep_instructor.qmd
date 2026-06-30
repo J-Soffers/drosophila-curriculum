@@ -1,0 +1,89 @@
+---
+title: Wired to Rest - Neural Architecture of Sleep States
+author:
+  - name: Lakshman Abhilash
+    email: labhilas@iu.edu
+    corresponding: true
+    orcid: 0000-0002-9933-8989
+
+---
+
+
+## Experimental Preparation
+
+**System and materials.**
+
+The primary experimental platform in this module is the Drosophila Activity Monitor (DAM) system, manufactured by [Trikinetics Inc.](https://trikinetics.com) (Waltham, MA).
+
+1. Individual adult flies are loaded into 5mm glass tubes containing sucrose-agar food at one end and sealed at the other with a small piece of white yarn, which permits gas exchange while preventing the flies from escaping.
+
+    i) Sucrose-agar food can be made using the following recipe. For 125mL of food, mix the following in a 1000mL conical flask:
+        
+        (a) *125mL de-ionized water.*
+        
+        (b) *2.5g Bactoagar.*
+        
+        (c) *5g of sucrose.*
+
+    ii) Microwave the mixture until completely dissolved. The solution should be transparent and have a yellow/golden color. Keep an eye to avoid spills.
+    
+    iii) Pour the mixture into a glass petri-dish. Make bundles of locomotor tubes with ~35 tubes per bundle. *Note. These tubes must be 65mm long and have a diameter of 5mm.*
+        
+    iv) These bundles are then dipped into the glass petri-dish with the media. Food rises up the tubes through capillary action.
+
+2. Each loaded tube is inserted into a DAM monitor, which houses 32 tubes arranged in a grid, with a single infrared (IR) beam passing transversally through each tube.
+
+3. The DAM monitors are then connected to a recording computer as per instructions from [Trikinetics Inc](https://trikinetics.com).
+
+**Experimental logic.**
+
+Every time a fly interrupts its beam, the event is registered by the recording computer as a unit of locomotor activity, binned in 1-minute intervals across the full duration of the experiment. This is an elegant example of engineering in service of biology: a highly reliable, automated system capable of resolving the fine temporal structure of behavioral regulation across large numbers of animals simultaneously.
+
+**Protocol design.**
+
+The experimental protocol spans 14 days and is structured in two phases that together allow circadian and homeostatic regulation of sleep to be dissected independently.
+
+1. Days 1 to 4 (entrainment): Monitors are placed in a controlled environment (an incubator) under a 12:12 Light:Dark (LD) cycle and 25 degrees Celsius. The external light-dark cycle entrains flies' circadian clocks and provides the temporal reference necessary to assess sleep bout timing, phase, and proxies of sleep depth, analogous to how polysomnography or wearable consumer devices infer sleep-stage architecture from continuous physiological recordings in humans.
+
+2.	Days 5 to 14 (free-running): Monitors are transferred to constant darkness (DD). This is done by switching the environment in the incubator without disturbing the monitors. In the absence of environmental timing cues, the free-running, endogenously driven circadian regulation of sleep states can be isolated and quantified without the confound of environmental influence.
+
+This LD-to-DD transition is a foundational paradigm in chronobiology, giving students direct, hands-on experience with one of the most powerful experimental strategies for separating clock-driven from environmentally modulated behavioral outputs in a concrete application of controlled experimental design, as foregrounded in NGSS practices.
+
+## Classroom Execution
+
+**Scale.**
+
+The scale of data generated in this module is itself a central feature of the learning experience. A classroom of 30 students, each setting up one monitor, can collectively record behavioral data from up to 960 flies across 14 days. With activity logged every minute for each animal over this period, the class generates nearly 20 million data points (19,353,600, to be precise).
+
+**From raw data to analysis.**
+
+Rather than treating this volume as an obstacle, the module uses it as a window into the realities of modern systems neuroscience, where large-scale data collection and computational analysis are indispensable. Students are introduced to pipelines that make this tractable on a standard laptop:
+
+1. ***Quality control:*** Raw data files are first processed through [DAMScan](https://trikinetics.com), quality-control software by Trikinetics that identifies and flags recording errors, dropped readings, and anomalous entries, producing clean datasets ready for analysis.
+
+2.	***Analysis:*** Students then use *[phaseR]*(https://github.com/abhilashlakshman/phaseR), an open-source analytical tool developed specifically for quantifying *Drosophila* sleep states and their circadian and homeostatic regulation.
+
+    i) Through *phaseR*, students compute sleep duration, bout number and architecture (proxies for sleep depth and homeostatic drive),
+    ii) and the period and robustness of free-running circadian rhythms in sleep states.
+    iii) Detailed protocols for *phaseR* can be found [here](https://github.com/abhilashlakshman/phaseR/blob/main/phaseR_UserManual_v01.html).
+        Note. Download the HTML file to your local computer and open it on any web browser.
+    iv) The R package for most functions used in *phaseR* can be found [here](https://cran.r-project.org/web/packages/phase/index.html) on CRAN. An example dataset is part of the package which students can use.
+    
+**What students take from this.**
+
+1. Engagement with this computational workflow prompts students to think carefully about
+
+    i) the statistical properties of data,
+    ii) the assumptions underlying quantitative methods,
+    iii) what different measures do and do not capture,
+    iv) and how inferential choices shape scientific conclusions.
+    
+2. By interpreting longitudinal, high-throughput behavioral datasets, students develop
+
+    i) quantitative reasoning,
+    ii) computational analysis,
+    iii) and evidence-based argumentation skills.
+    
+The module thus cultivates not only technical fluency but epistemic awareness, an understanding of the relationship between data, models, and claims that are essential to rigorous scientific reasoning.
+
+Situated within the broader curriculum, this module connects developmental origin and synaptic connectivity explored in other modules to observable behavior, reinforcing the integrative, NGSS-aligned approach of inquiry-driven experimentation and evidence-based reasoning that runs throughout the pedagogical sequence.

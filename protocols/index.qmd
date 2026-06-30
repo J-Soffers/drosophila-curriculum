@@ -31,6 +31,6 @@ Use the latest software and follow this guided tour to trace the visual circuit.
 
 How can complex social behaviors be quantified and dissected? Students build fighting chambers, record aggression assays between male flies, and learn to design automated behavioral classifiers using tools like JAABA and FlyTracker and the custom behaviorscoreR and bridge circuit manipulation with rigorous behavioral analysis.
 
-### [Module 7 - Sleep in *Drosophila melanogaster*](sleep.qmd)
+### [Module 7 - Sleep in *Drosophila melanogaster*](sleep_all.qmd)
 
 How can internal states like sleep be measured and manipulated? Students monitor activity and rest patterns, analyze sleep metrics such as bout length and latency, and explore how neural circuits and environmental cues regulate sleep. Students learn to link behavior to underlying physiological and circuit mechanisms.
