@@ -43,13 +43,17 @@ behaviorScoreR produces:
 
 ## Part 1: App Setup
 
-Download and unzip [behaviorScoreR](assets/aggression/Bucknell_Behavior_Scorer.zip)
+Get behaviorScoreR from the [Bucknell-Behavior-Scorer repository](https://github.com/Pueblo-Brain-Science/Bucknell-Behavior-Scorer). Click the green **Code → Download ZIP** button and unzip it or clone the repository via git.
 
-After unzipping, the folder structure should appear as follows:
+After getting the behaviorScoreR, the folder structure should appear as follows:
 
 ```text
-BehaviorScorer/
+Bucknell Behavior Scorer/
 ├── app.R
+├── run.R                              # terminal launcher
+├── assets/
+│   ├── Ethogram.csv                   # example ethogram — copy and edit for your experiment
+│   └── behavior_log_2026-02-26.csv    # example scoring output
 └── www/
     └── video.mp4
 ```
@@ -153,6 +157,16 @@ The software supports:
 
 - Up to 10 discrete behaviors
 - Up to 5 continuous behaviors
+
+##### File format
+
+The header row must contain the columns `Key`, `Behavior`, and `Mode` (case-insensitive; extra empty trailing columns from spreadsheet exports are ignored). Rules for each field:
+
+- **Key** — the value the browser reports for the pressed key (JavaScript `KeyboardEvent.key`). This includes single characters (letters, digits, punctuation) and named keys such as `Enter`, `Escape`, `ArrowLeft`, `F1`. Letter keys are case-sensitive: `g` and `G` are different keys (Shift produces the uppercase form). Each key must be unique across the ethogram. Alphanumerics are the safest choice; keys the browser intercepts (e.g. `Tab`) will not work reliably.
+- **Behavior** — any non-empty label. Leading and trailing whitespace are trimmed, but internal spaces are preserved. Because the label is used verbatim as a column identifier in the exported log, underscores (e.g. `Wing_Threat`) are recommended over spaces. Behavior names are not required to be unique, but duplicates will collide silently — keep them distinct.
+- **Mode** — exactly `discrete` or `continuous` (case-insensitive). `discrete` increments a counter on each key press; `continuous` toggles start/end to record bout duration.
+
+Empty rows are ignored. Violating any of these rules (missing columns, invalid mode, duplicate keys, or exceeding the 10 discrete / 5 continuous limits) causes the ethogram to be rejected with an on-screen error.
 
 #### Key Assignment Table
 
@@ -340,8 +354,12 @@ Verify that:
 Correct folder structure:
 
 ```text
-BehaviorScorer/
+Bucknell Behavior Scorer/
 ├── app.R
+├── run.R                              # terminal launcher
+├── assets/
+│   ├── Ethogram.csv                   # example ethogram — copy and edit for your experiment
+│   └── behavior_log_2026-02-26.csv    # example scoring output
 └── www/
     └── video.mp4
 ```
