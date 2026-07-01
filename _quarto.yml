@@ -63,8 +63,14 @@ website:
         - text: "Tracing a visual circuit"
           href: protocols/celltype-explorer.qmd
 
-        - text: "Aggression"
-          href: protocols/aggression.qmd
+        - text: "Social Interactions and Aggressive Behaviors"
+          contents:
+            - text: Student Version
+              href: protocols/aggression_student.qmd
+            - text: Instructor Version
+              href: protocols/aggression_instructor.qmd
+            - text: BehaviorscoreR
+              href: protocols/aggression_behaviorscoreR.qmd
 
         - text: "Sleep"
           href: protocols/sleep.qmd

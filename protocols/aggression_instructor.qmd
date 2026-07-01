@@ -1,5 +1,5 @@
 ---
-title: Aggression in Drosophila melanogaster
+title: Social Interactions and Aggression in Drosophila melanogaster
 author:
   - name: Budhaditya Chowdhury
     email: bc036@bucknell.edu
@@ -20,14 +20,14 @@ author:
 - Sugar
 - Nipagin / Tegosept
     - *Stock solution made by dissolving 20 grams of tegosept in 100 ml in 95% Ethanol*
-- Adult flies (1 day old)
+- Adult flies (2- day old)
     - *All bottles containing fly genotypes of interest should be kept in an environmentally stable 12hr light/12hr dark conditions. For best results parental flies should not be housed in a crowded condition and transferred to new bottles every 3-5 days. (For best results parental crosses should be set up with 20 virgin females and 20 young males).*
 - CO2 or ice for anesthesia
-- Standard fly food (see appendix)
+- Standard fly food (see resources)
 
 ### Equipment:
 
-- 3d printed fighting chamber
+- 3D printed fighting chamber
   - *For best results the chambers should be printed with ABS material at 100-micron thickness.*
 - Dividers
   - *For best results X-ray films should be cut with Silhouette printer for accuracy of dimensions.*
@@ -48,19 +48,19 @@ author:
 
 - Making the food
   - To make food for one divider assay chamber (12 pairs of concurrent fights) the following ingredients and recipe is recommended.
-    - Clear corn syrup: 7 ml
+    - Clear corn syrup: 7 mL
       - Sugar: 4 g
       - Agarose: 2 g
-      - water: 220 ml
+      - water: 220 mL
     - Mix all the ingredients in a microwave safe flask and microwave till the food solution runs clear.
     - Let the hot food rest on bench till the temperature falls below 65 C (typically 30 mins or so in room temperature)
-    - Add 2 ml Nipagin/Tegosept
+    - Add 2 mL Nipagin/Tegosept
     - Pour in food boxes and let it solidify before assembling fighting chamber on top of it (recommended wait time \~2 hours)
 - Assembling divider assay chambers on top of food *(Consult Supplementary movie to see the assembly of chamber)*
   - Place three dividers through the slits between the chambers while holding the chamber upside down, supported by the inverted glass cover.
   - Gently move the inverted and assembled fighting chamber up towards the solidified food and once the chamber comes in contact with food surface invert the entire assembly to have a right side up fighting chamber resting on food.
 
-### Loading 1-day old flies on Fighting Chamber
+### Loading 2-day old flies on Fighting Chamber
 
 Newly eclosed flies (less than a day old) should be anesthetized on CO2 or ice. Two male flies should be gently placed in a single fighting arena on two sides of the divider. Once 12 pairs have been loaded the top glass cover should be placed on top and secured with a thin strip of clear tape (while not obstructing view of fighting arenas)
 
@@ -71,7 +71,7 @@ Newly eclosed flies (less than a day old) should be anesthetized on CO2 or ice. 
 - The dividers should be gently removed by pulling them out in a linear motion while not disrupting the isolated flies.
 - The Basler video acquisition software should be run to acquire movie file of the 12 well chamber for the duration of assay (we recommend recording at 20 Hz, and for assay duration of 20 minutes).
 
-### How to Design behavioral Classifiers
+### How to Design behavioral Classifiers for JAWA and Fly Tracker 
 
 1. The first step in designing a classifier is ascertaining if the behavior is discrete (Lunging), or continuous (boxing). The output of automated action-classifying algorithms (like JAABA) should return results that match conventional behavioral scoring (manual quantification).
     - **Critical Step** Discrete behavior classifiers can start off by labeling multiple frames, but rigorous subsequent training should be done till classified frames are a match with manual scoring. For classifiers that labels 5 or more frames when only one should be picked, it might be prudent to start over.
@@ -85,3 +85,4 @@ Newly eclosed flies (less than a day old) should be anesthetized on CO2 or ice. 
     a. If the classifier is labeling multiple frames as a single lunge, the average difference between manual scoring, and classified movie will be readily apparent (if two frames are being labeled as a lunge, the automated classification will return double the number of lunges as manually scored\!)
     b. A subsequent frame by frame analysis will clear up which behaviors are getting mislabeled, making it easier to train them out.
     c. Setting post processing filters will help retain correct IDs while removing unwanted ones, making the total count get as close to the gold standard of manual scoring as one wants.
+

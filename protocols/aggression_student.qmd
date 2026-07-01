@@ -1,0 +1,256 @@
+---
+title: Social Interactions and Aggression in Drosohila melanogaster
+author:
+  - name: Budhaditya Chowdhury
+    email: bc036@bucknell.edu
+    correcsponding: true
+    orcid: 0000-0003-3836-0426
+---
+
+
+## Background 
+
+Why do animals fight?
+
+From tiny insects to large mammals, aggressive behavior is a universal strategy for competing over limited resources such as food, territory, and mates. Understanding aggression allows researchers to investigate how animals make decisions during social interactions and how neural circuits, genes, internal state, and environmental conditions influence behavior.
+
+*Drosophila melanogaster* provides a powerful model system for studying aggression because it displays a rich and highly stereotyped repertoire of social behaviors that can be observed, quantified, and linked to underlying biological mechanisms. Under appropriate experimental conditions, male flies compete over a centralized food resource and exhibit a predictable sequence of escalating aggressive behaviors.
+
+Aggressive interactions often begin with lower-intensity actions and gradually progress toward more intense physical encounters. Researchers use ethograms, standardized catalogs of behavior, to identify, define, and quantify these actions. By assigning clear definitions to individual behaviors, aggression can be measured consistently across animals and experimental conditions.
+
+In this module, you will record aggressive encounters between pairs of male flies and analyze behavior using behaviorScoreR. By scoring behavioral events and visualizing their timing, you will investigate how aggressive contests unfold over time, whether fights follow predictable rules of engagement, and which behaviors are associated with contest escalation and dominance.
+
+### Experimental Conditions
+
+You will observe pairs of male flies under one or more conditions:
+
+1. Control males competing over a food resource
+2. Genetically manipulated males
+3. Environmentally manipulated males
+4. Additional instructor-provided experimental treatments
+
+### Behavior Categories
+
+O (Orienting)
+
+WF (Wing Flick)
+
+F (Fencing)
+
+L (Lunging)
+
+RL (Reciprocal Lunging)
+
+T (Tussling)
+
+WK (Walking)
+
+S (Standing)
+ 
+## Part 1: Behavioral Recording
+
+Pairs of two-day socially isolated male flies are introduced into custom fighting chambers containing a centralized food resource.
+
+After a brief acclimation period, a divider is removed and the flies are allowed to interact freely. Interactions are recorded from above using a camera mounted over the chamber.
+
+Record approximately 20 minutes of behavior per fly pair.
+
+Ensure:
+
+- The entire arena is visible
+- Both flies remain visible throughout the recording
+- Lighting is consistent
+- Camera position remains fixed
+
+### Scoring Technique:
+
+Open the recording in behaviorScoreR.
+
+Score each occurrence of a behavioral event using the assigned key.
+
+Unlike grooming, aggressive behaviors are recorded as discrete events rather than time-sampled states.
+
+For example:
+
+- If a fly performs three lunges, record three lunges.
+- If a fly performs one wing flick, record one wing flick.
+
+### Data Visualization for Students
+
+Behavioral timelines can be represented as ethograms showing the sequence of aggressive events through time.
+
+| Time (s) | 5 | 12 | 18 | 24 | 31 |
+|----------|---|----|----|----|----|
+| Behavior | WF | F | L | L | T |
+
+These timelines allow visualization of behavioral escalation during contests.
+
+## Part 2: Quantitative Analysis
+
+### Step 1: Count Behavioral Events
+
+Calculate:
+
+- Total Wing Flicks
+- Total Fencing Events
+- Total Lunges
+- Total Reciprocal Lunges
+- Total Tussling Events
+
+Calculate event frequency:
+
+Event Frequency = Number of Events ÷ Observation Time
+
+### Step 2: Graphical Representation
+
+Create:
+
+- Bar graph showing frequency of each behavior
+- Timeline ethogram showing behavioral progression
+- Cumulative aggression plot through time
+
+Suggested colors:
+
+- Orienting: Gray
+- Wing Flick: Yellow
+- Fencing: Green
+- Lunging: Red
+- Reciprocal Lunging: Dark Red
+- Tussling: Black
+- Walking: Blue
+- Standing: White
+
+### Step 3: Escalation Analysis
+
+Measure:
+
+- Latency to first Wing Flick
+- Latency to first Fence
+- Latency to first Lunge
+- Latency to first Tussle
+- Total escalation events
+- Maximum escalation level reached
+
+Calculate:
+
+Escalation Index =
+
+(1 × WF) + (2 × F) + (3 × L) + (4 × RL) + (5 × T)
+
+Higher values indicate more intense aggressive interactions.
+
+After scoring the contest, calculate:
+
+| Metric | Value |
+|----------|----------|
+| Total Wing Flicks | ______ |
+| Total Fencing Events | ______ |
+| Total Lunges | ______ |
+| Total Reciprocal Lunges | ______ |
+| Total Tussles | ______ |
+| Escalation Index | ______ |
+
+### Step 4: Dominance Analysis
+
+Measure:
+
+- Which fly lunged first
+- Which fly occupied the resource most frequently
+- Which fly displaced the opponent
+- Whether dominance was clearly established
+
+Questions:
+
+- Did the first fly to lunge become dominant?
+- Did reciprocal aggression prevent dominance establishment?
+- Were highly escalated contests associated with clearer winners?
+
+## Part 3: Behavioral Scoring
+
+Record aggressive behaviors using behaviorScoreR.
+
+### Categories and Actions Associated
+
+| Category | Abbreviation | Example Action |
+|-----------|-----------|-----------|
+| Orienting | O | Facing opponent |
+| Wing Flick | WF | Rapid wing movement |
+| Fencing | F | Foreleg contact |
+| Lunging | L | Rapid downward strike |
+| Reciprocal Lunging | RL | Alternating lunges by both flies |
+| Tussling | T | Sustained physical engagement |
+| Walking | WK | Locomotion |
+| Standing | S | Immobile |
+
+Goal: Track the order, frequency, and timing of aggressive behaviors throughout the contest.
+
+## Part 4: Procedure Overview
+
+### A. Fly Preparation
+
+1. Collect male flies shortly after eclosion.
+2. House males individually for two days.
+3. Maintain flies on standard food.
+4. Use age-matched animals.
+
+### B. Aggression Assay
+
+1. Place two males into the fighting chamber.
+2. Allow acclimation.
+3. Remove divider.
+4. Begin recording.
+5. Record approximately 20 minutes of behavior.
+
+::: {.callout-tip title="Tip"}
+Aggression is strongly influenced by age, social isolation, and resource availability. Maintain consistent conditions across all experimental groups.
+:::
+
+### C. Behavioral Scoring with behaviorScoreR
+
+1. Open the video in behaviorScoreR.
+2. Load the aggression ethogram.
+3. Assign scoring keys if necessary.
+4. Score behavioral events.
+5. Export the behavioral log as a CSV file.
+6. Analyze behavioral frequencies and escalation patterns.
+
+## Part 5: Interpretation Questions
+
+- Do aggressive encounters follow predictable rules of engagement?
+- Which behaviors typically occur first?
+- Does aggression escalate in a stereotyped sequence?
+- Does the first fly to lunge become dominant?
+- Are some contests more likely to escalate than others?
+- How might genes, neural circuits, or environmental conditions alter aggression?
+- Can aggressive outcomes be predicted from early interactions?
+
+## Part 6: Data Recording Options
+
+| Option | Description | Tools |
+|----------|----------|----------|
+| A | Manual event scoring | behaviorScoreR |
+| B | Timeline ethogram construction | Excel / Google Sheets |
+| C | Statistical analysis | CSV files, MATLAB, R, Python |
+
+::: {.callout-tip title="Tip"}
+Behavioral timelines often reveal escalation patterns that are difficult to identify using event counts alone.
+:::
+
+## Sample Data Recording Sheet: Aggression Event Log
+
+Fly Pair ID: __________
+
+Condition: __________
+
+Genotype: __________
+
+| Time (s) | Behavior Code | Notes |
+|-----------|-----------|-----------|
+|           |           |           |
+|           |           |           |
+|           |           |           |
+|           |           |           |
+
+Behavior Codes:
+
+O (Orienting) · WF (Wing Flick) · F (Fencing) · L (Lunging) · RL (Reciprocal Lunging) · T (Tussling) · WK (Walking) · S (Standing)

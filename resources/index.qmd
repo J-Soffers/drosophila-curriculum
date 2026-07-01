@@ -7,13 +7,13 @@ At this page you find generic protocols to aid in the classroom execution of the
 # Generic Protocols
 
 [*Drosophila* manual](https://marksteinlab.org/dwu/)
-: An excellent laboratory manual for working with *Drosophila* from the Markentein laboratory.
+: An excellent laboratory manual for working with *Drosophila* from the Markenstein laboratory.
 
 [Food Recipes](https://bdsc.indiana.edu/information/recipes/index.html/)
 : Fly food recipes and preparation instructions from the  Bloomington Drosophila Stock Center.
 
 [Preparing Retinal food](retinal.qmd)
-:Protocol detailing how to prepare fly food that contains all-trans retinal.
+: Protocol detailing how to prepare fly food that contains all-trans retinal.
 
 
 # External links
@@ -34,5 +34,5 @@ At this page you find generic protocols to aid in the classroom execution of the
 [Virtual Fly Brain](https://virtualflybrain.org/)
 : Virtual Fly Brain (VFB) is an interactive tool for exploring the neuroanatomy, connectivity, and gene expression of *Drosophila melanogaster*. It integrates published neuroanatomical data and image datasets onto a common brain template, enabling cross-searches and 3D comparison of neurons.
 
-[natverse](https://natverse.org/)
+[Natverse](https://natverse.org/)
 : The natverse is a collection of interoperable R packages to import, visualise, analyse, manipulate, and export 3D neuroanatomical data, including neurons, brains, and brain regions. It has been used to study brain and circuit organisation in species from flies to fish and mice.

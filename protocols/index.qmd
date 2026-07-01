@@ -24,9 +24,9 @@ How can we test whether a specific set of neurons is sufficient to drive a behav
 
 How do sensory signals get transformed into organized sequences of actions? Students set up genetic crosses, prepare flies for optogenetic or thermogenetic activation, and explore how different driver lines recruit distinct nodes in the sensorimotor hierarchy — from sensory interneurons to descending command-like neurons.
 
-### [Aggression in *Drosophila melanogaster*](aggression.qmd)
+### [Social Interactions and Aggression in *Drosophila melanogaster*](aggression.qmd)
 
-How can complex social behaviors be quantified and dissected? Students build fighting chambers, record aggression assays between male flies, and learn to design automated behavioral classifiers using tools like JAABA and FlyTracker and bridge circuit manipulation with rigorous behavioral analysis.
+How can complex social behaviors be quantified and dissected? Students build fighting chambers, record aggression assays between male flies, and learn to design automated behavioral classifiers using tools like JAABA and FlyTracker and the custom behaviorscoreR and bridge circuit manipulation with rigorous behavioral analysis.
 
 ### [Sleep in *Drosophila melanogaster*](sleep.qmd)
 
