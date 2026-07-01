@@ -66,23 +66,13 @@ The video file must be named exactly:
 video.mp4
 ```
 
-If your recording has a different name or format, for instance if you recorded a movie on your mobile phone, it will have a different name like whatever.MOV. Copy this movie into the WWW folder and RENAME it video.mp4
+If your recording has a different name or format, for instance if you recorded a movie on your mobile phone, it will have a different name like `whatever.MOV`. Copy this movie into the `www` folder and RENAME it `video.mp4`.
 
-```text
-video.mp4
-```
+For example: `fight01.mov` should become `video.mp4`
 
-For example:
-
-```text
-fight01.mov
-```
-
-should become:
-
-```text
-video.mp4
-```
+::: {.callout-tip}
+If renaming doesn't work, the video codec might be too different. For an easy solution to convert to a mp4 video format, check [HandBrake](https://handbrake.fr/) or the CLI tool [ffmpeg](https://ffmpeg.org/).
+:::
 
 ## Part 2: Launching the App
 
