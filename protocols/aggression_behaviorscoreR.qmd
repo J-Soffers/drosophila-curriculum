@@ -86,11 +86,37 @@ video.mp4
 
 ## Part 2: Launching the App
 
-1. Open `app.R` in RStudio.
-2. Install any requested Shiny dependencies.
-3. Click **Run App**.
+Two ways to launch behaviorScoreR are supported. Both install the required R packages (`shiny` and `DT`) on first use if they are not already present.
 
-The application will open in RStudio or in a web browser.
+### Option A: From the command line (`Rscript run.R`)
+
+Recommended if you already have R on your `PATH` and prefer working in a terminal.
+
+1. Open a terminal and change into the app folder:
+   ```bash
+   cd "Bucknell Behavior Scorer"
+   ```
+2. Run the launcher:
+   ```bash
+   Rscript run.R
+   ```
+
+On first launch, `run.R` ensures a writable personal R library exists, installs any missing packages from the CRAN cloud mirror, and then starts the Shiny app. The app opens in your default web browser. To stop the app, press `Ctrl+C` in the terminal.
+
+### Option B: From RStudio (`app.R`)
+
+Recommended if you prefer a graphical workflow or do not have R on your `PATH`.
+
+1. Launch RStudio and open the app folder (**File → Open Project** or **File → Open File…**).
+2. Open `app.R` in the editor.
+3. If RStudio shows a yellow banner reporting missing packages (`shiny`, `DT`), click **Install** and wait for the installation to finish.
+4. Click the **Run App** button in the top-right of the editor pane (or press `Ctrl+Shift+Enter` / `Cmd+Shift+Enter`).
+
+The application opens in RStudio's Viewer pane or in your default web browser. To stop the app, click the red stop-sign icon in the RStudio console.
+
+::: {.callout-tip}
+If RStudio does not offer to install the packages automatically, open `run.R` instead and click **Source** — this installs the dependencies and then launches the app.
+:::
 
 ## Part 3: App Layout
 
