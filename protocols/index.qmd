@@ -25,7 +25,7 @@ How do developmental building blocks give rise to functional neural circuits? In
 How do sensory signals get transformed into organized sequences of actions? Students set up genetic crosses, prepare flies for optogenetic or thermogenetic activation, and explore how different driver lines recruit distinct nodes in the sensorimotor hierarchy — from sensory interneurons to descending command-like neurons.
 
 ### [Module 4/5 - Tracing a Visual Circuit](celltype-explorer.qmd)
-Use the latest software and follow this guided tour to trace the visual circuit. Then, you will use a sophisticated engineering set-up to tether a fly ontop of a miniscule ball to analyze it's movements.
+Use the latest software and follow this guided tour to trace the visual circuit. Then, you will use a sophisticated engineering set-up to tether a fly on top of a minuscule ball to analyze its movements.
 
 ### [Module 6 - Social Interactions and Aggression in *Drosophila melanogaster*](aggression.qmd)
 
