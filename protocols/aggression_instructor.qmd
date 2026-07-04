@@ -23,7 +23,7 @@ author:
 - Adult flies (2- day old)
     - *All bottles containing fly genotypes of interest should be kept in an environmentally stable 12hr light/12hr dark conditions. For best results parental flies should not be housed in a crowded condition and transferred to new bottles every 3-5 days. (For best results parental crosses should be set up with 20 virgin females and 20 young males).*
 - CO<sub>2</sub> or ice for anesthesia
-- [Standard Fly Food](resources.qmd)
+- [Standard Fly Food](../resources/index.qmd)
 
 ### Equipment:
 
