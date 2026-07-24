@@ -89,23 +89,23 @@ website:
           href: protocols/catmaid02.qmd
         - text: "M1-Intro to Optogenetics"
           href: protocols/optogenetics.qmd
-          
+
         - text: "M2-Developmental Logic as Circuit Blueprint-I"
           href: protocols/hemilineage_student_opto.qmd
         - text: "M2-Developmental Logic as Circuit Blueprint-II"
           href: protocols/hemilineage_student_EM.qmd
-          
+
         - text: "M3-Sensory Processing to Sequential Action Control"
           href: protocols/hierarchy_student.qmd
-          
+
         - text: "M4/5 Tracing a visual circuit"
           href: protocols/celltype-explorer.qmd
-          
+
         - text: "M6-Social Interactions and Aggressive Behaviors"
           href: protocols/aggression_student.qmd
         - text: "BehaviorscoreR"
           href: protocols/aggression_behaviorscoreR.qmd
-          
+
         - text: "M7-The Sleeping Fly"
           href: protocols/sleep_student.qmd
 
@@ -134,7 +134,7 @@ website:
           href: protocols/aggression_instructor.qmd
         - text: "BehaviorscoreR"
           href: protocols/aggression_behaviorscoreR.qmd
-          
+
         - text: "The Sleeping Fly"
           href: protocols/sleep_instructor.qmd
 
