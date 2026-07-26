@@ -27,7 +27,7 @@ How do sensory signals get transformed into organized sequences of actions? Stud
 ### [Module 4/5 - Tracing a Visual Circuit](celltype-explorer.qmd)
 Use the latest software and follow this guided tour to trace the visual circuit. Then, you will use a sophisticated engineering set-up to tether a fly on top of a minuscule ball to analyze its movements.
 
-### [Module 6 - Social Interactions and Aggression in *Drosophila melanogaster*](aggression.qmd)
+### [Module 6 - Social Interactions and Aggression in *Drosophila melanogaster*](aggression_student.qmd)
 
 How can complex social behaviors be quantified and dissected? Students build fighting chambers, record aggression assays between male flies, and learn to design automated behavioral classifiers using tools like JAABA and FlyTracker and the custom behaviorscoreR and bridge circuit manipulation with rigorous behavioral analysis.
 

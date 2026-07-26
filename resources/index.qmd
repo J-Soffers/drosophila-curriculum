@@ -22,7 +22,7 @@ At this page you find generic protocols to aid in the classroom execution of the
 : Analysis software for aggression behavior [(module 6)](../protocols/aggression_behaviorscoreR).
 
 [phaseR](https://github.com/Pueblo-Brain-Science/phaseR)
-: Analysis software for deep sleep patterns [(Module 7)](../protocols/sleep_phaseR).
+: Analysis software for deep sleep patterns [(Module 7)](../protocols/sleep_instructor.qmd).
 
 ## Outreach
 

@@ -8,24 +8,6 @@ author:
 
 ---
 
-## Overview
-
-Sleep is arguably one of the most ubiquitous, yet mysterious behaviors observed across animal phylogenies. What is sleep? How does one measure it? Do animals other than mammals have sleep-stage-like states, and if so, are the molecular and circuit-level mechanisms that regulate these states known? Are sleep states regulated differently by the circadian clock and by homeostatic processes? And what do we even mean by "circadian" and "homeostatic" regulation in the first place? Do males and females sleep differently, and if so, how is that difference encoded at the molecular or circuit level?
-
-These questions sit at the intersection of ***neuroscience***, ***genetics***, ***animal behavior***, and ***data science***. *Drosophila* has long served as a powerful genetic model for dissecting the functional and circuit-level underpinnings of behavior. A central conceptual bridge, and a central inquiry driving this module, is how fly sleep research can be elevated to meaningfully inform mammalian neuroscience.
-
-This module engages students with questions central to their development as scientists. The experimental platform is a conceptually rich teaching object in its own right, demonstrating how engineering and biology integrate to monitor complex behavioral regulation in a high-throughput, accessible system. The scale of data the platform generates is deliberately leveraged as a pedagogical opportunity to explore how data science and neuroscience converge in the study of behavior. Students also engage with the practices underpinning responsible science, i.e., reproducibility, rigor, FAIR (Findable, Accessible, Interoperable, Reusable) principles of open science, and the ethical dimensions of scientific communication.
-
-## Learning Outcomes
-
-Upon completing this module, students will be able to:
-
-1. Design and execute a long-term, high-throughput behavioral assay using the DAM system, demonstrating an integrated understanding of its biological rationale and engineering architecture.
-2. Infer sleep states from continuous locomotor activity time series, and articulate the conceptual parallel between this approach and the inference of sleep stages from physiological signals in humans (analogous to how consumer wearable devices estimate sleep stages), situating the fly model within the broader context of translational sleep research.
-3. Distinguish circadian from homeostatic regulation of sleep using appropriately designed experimental conditions, and interpret free-running behavioral rhythms in terms of endogenous clock function.
-4. Quantify sleep parameters, including bout structure as a proxy for sleep depth, and rhythm phase and period, and evaluate how these vary across genotypes, sexes, and experimental treatments.
-5. Apply open-source computational tools to analyze large behavioral datasets, building competencies in quantitative reasoning, data science, and evidence-based interpretation as practiced in contemporary systems neuroscience.
-6. Engage critically with reproducibility, biological variability, statistical inference, and the FAIR principles of open science as foundational dimensions of responsible scientific practice.
 
 ## Experimental Preparation
 
@@ -35,9 +17,9 @@ The primary experimental platform in this module is the Drosophila Activity Moni
 
 1. Individual adult flies are loaded into 5mm glass tubes containing sucrose-agar food at one end and sealed at the other with a small piece of white yarn, which permits gas exchange while preventing the flies from escaping.
     i) Sucrose-agar food can be made using the following recipe. For 125mL of food, mix the following in a 1000mL conical flask:
-        a. *125mL de-ionized water.*
-        b. *2.5g Bactoagar.*
-        c. *5g of sucrose.*
+        (a) *125mL de-ionized water.*
+        (b) *2.5g Bactoagar.*
+        (c) *5g of sucrose.*
     ii) Microwave the mixture until completely dissolved. The solution should be transparent and have a yellow/golden color. Keep an eye to avoid spills.
     iii) Pour the mixture into a glass petri-dish. Make bundles of locomotor tubes with ~35 tubes per bundle. *Note. These tubes must be 65mm long and have a diameter of 5mm.*
     iv) These bundles are then dipped into the glass petri-dish with the media. Food rises up the tubes through capillary action.
